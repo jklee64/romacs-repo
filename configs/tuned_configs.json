@@ -1,0 +1,9 @@
+{
+  "DecisionTree": {"max_depth": 12, "min_samples_leaf": 1},
+  "Bagging": {"n_estimators": 15, "max_samples": 0.85},
+  "AdaBoost": {"n_estimators": 80, "learning_rate": 0.5, "estimator_depth": 4},
+  "RUSBoost": {"n_estimators": 80, "learning_rate": 1.0, "estimator_depth": 3},
+  "XGBoost": {"n_estimators": 100, "max_depth": 4, "learning_rate": 0.1, "subsample": 0.8},
+  "LogReg": {"C": 10},
+  "MLP": {"hidden": [256, 128], "lr": 0.001, "alpha": 0.01, "activation": "tanh"}
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite the paper below."
+title: "RoMaCS: Robust Maritime Channel Selection under Incomplete and Stale Observations"
+authors:
+  - family-names: Lee
+    given-names: Jongkwan
+    affiliation: "Korea Military Academy"
+  - family-names: Lee
+    given-names: Minwoo
+    affiliation: "Korea Maritime & Ocean University"
+    email: iminu@kmou.ac.kr
+license: MIT
+repository-code: "https://github.com/<ORG>/romacs"   # TODO: 실제 URL로 교체
+preferred-citation:
+  type: article
+  title: "Staleness-Aware Channel Selection with Conformal Abstention for Maritime IoT Networks"
+  authors:
+    - family-names: Lee
+      given-names: Jongkwan
+    - family-names: Lee
+      given-names: Minwoo
+  journal: "IEEE Internet of Things Journal"
+  year: 2026
+  notes: "under review"
